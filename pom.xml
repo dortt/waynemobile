@@ -75,7 +75,6 @@
 					</execution>
 				</executions>
 				<configuration>
-					<dockerConfigFile>../Dockerfile.dockerfile</dockerConfigFile>
 					<repository>dortt/waynemobile</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
