@@ -1,0 +1,7 @@
+com\vivo\waynemobile\clientRepository.class
+utilities\CPF.class
+com\vivo\waynemobile\client.class
+com\vivo\waynemobile\cdr.class
+com\vivo\waynemobile\WaynemobileApplication.class
+com\vivo\waynemobile\cdrRepository.class
+com\vivo\waynemobile\APIController.class
