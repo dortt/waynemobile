@@ -14,6 +14,7 @@ WayneMobile é um sistema de API's para inclusão e exclusão de CDR e inclusão
 * [IntelliJ IDEA](https://www.jetbrains.com/?utm_source=product&utm_medium=link&utm_campaign=IC&utm_content=2019.1) - IDE
 * [MySQL 5.7.28](https://dev.mysql.com/downloads/mysql/) - Database Engine
 * [TortoiseGIT](https://tortoisegit.org/) - Interface (GUI) para Windows Explorer
+* [Postman](https://www.postman.com/downloads) - Collaborative API Test Platform
 
 ## Documentação
 
@@ -26,7 +27,7 @@ src/main/resources/application.resources
 Url Padrão:
 
 ```
-http://localhost:8086/
+http://localhost:8085/
 ```
 
 ### CDR
@@ -35,7 +36,7 @@ Trata-se de todos acessos feitos pelos clientes (clique em endereços da web, li
 **Cadastro**
 ```
 URL (Método: POST)
-http://localhost:8086/api/cdr/create
+http://localhost:8085/api/cdr/create
 ```
 ```
 Parâmetros em formato JSON (obrigatórios)
@@ -56,7 +57,7 @@ Retorno em formato JSON
 **Deletar**
 ```
 URL (Método: DELETE)
-http://localhost:8086/api/cdr/delete/{id}
+http://localhost:8085/api/cdr/delete/{id}
 ```
 ```
 Retorno em formato JSON (se {id} existir)
@@ -71,7 +72,7 @@ Cadastro de clientes com Nome e CPF.
 **Cadastro**
 ```
 URL (Método: POST)
-http://localhost:8086/api/client/create
+http://localhost:8085/api/client/create
 ```
 ```
 Parâmetros em formato JSON (obrigatórios e CPF precisa ser válido)
