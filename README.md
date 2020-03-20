@@ -29,6 +29,20 @@ Url Padrão:
 ```
 http://localhost:8085/
 ```
+### Compilar
+
+* Primeiro configurar a conexão MySQL no _"application.resources"_
+* Na pasta raiz do projeto
+
+```
+Gerar o pacote
+./mvnw clean package
+
+ou
+
+Rodar Aplicação 
+./mvnw spring-boot:run
+```
 
 ### CDR
 Trata-se de todos acessos feitos pelos clientes (clique em endereços da web, ligação, envio de sms, etc.)
