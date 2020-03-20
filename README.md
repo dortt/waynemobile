@@ -27,7 +27,7 @@ src/main/resources/application.resources
 Url Padrão:
 
 ```
-http://localhost:8086/
+http://localhost:8085/
 ```
 
 ### CDR
