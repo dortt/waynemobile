@@ -16,7 +16,7 @@ WayneMobile é um sistema de API's para inclusão e exclusão de CDR e inclusão
 * [TortoiseGIT](https://tortoisegit.org/) - Interface (GUI) para Windows Explorer
 * [Postman](https://www.postman.com/downloads) - Collaborative API Test Platform
 
-## Documentação
+## Configuração
 
 O arquivo de configuração (database, porta, etc.) encontra-se em:
 
@@ -29,7 +29,7 @@ Url Padrão:
 ```
 http://localhost:8085/
 ```
-### Compilar
+## Compilar
 
 * Primeiro configurar a conexão MySQL no _"application.resources"_
 * Na pasta raiz do projeto
@@ -43,6 +43,8 @@ ou
 Rodar Aplicação 
 ./mvnw spring-boot:run
 ```
+
+## End-points
 
 ### CDR
 Trata-se de todos acessos feitos pelos clientes (clique em endereços da web, ligação, envio de sms, etc.)
